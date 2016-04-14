@@ -1,0 +1,39 @@
+{
+  "name": "decide",
+  "version": "1.0.0",
+  "description": "A very dramatic console decider",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morozig/decide.git"
+  },
+  "keywords": [
+    "decide",
+    "coin",
+    "head",
+    "tail"
+  ],
+  "author": "morozig",
+  "contributors": [
+    {
+      "name": "sutarmin",
+      "email": "sutarmin-ok@mail.ru"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/morozig/decide/issues"
+  },
+  "homepage": "https://github.com/morozig/decide#readme",
+  "dependencies": {
+    "ansi": "^0.3.1",
+    "chalk": "^1.1.3",
+    "single-line-log": "^1.1.1"
+  },
+  "bin": {
+    "decide": "cli.js"
+  }
+}
